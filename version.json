@@ -1,4 +1,4 @@
 {
-  "version": "2026.11.9-r5",
-  "notas": "RLS completo para todas las tablas; deploy Cloudflare Pages vía GitHub Actions; login nube exige correo válido."
+  "version": "2026.11.9-r6",
+  "notas": "github.io como host publicado (solo Auth nube)."
 }

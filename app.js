@@ -8,7 +8,7 @@ const PHRASE = 'Al Señor sea la gloria';
 const TZ = 'America/Lima';
 const DB_KEY = 'iglesia_db_v1';
 const SESSION_KEY = 'iglesia_session_v2';
-const APP_VERSION = '2026.11.9-r5';
+const APP_VERSION = '2026.11.9-r6';
 const TABLES = ['users', 'diezmos', 'servicios', 'ingresos', 'remuneraciones', 'cajachica', 'members', 'santacena', 'agendas', 'presupuestos', 'auditoria'];
 const AUDIT_MODS = ['cajachica', 'presupuestos', 'agendas'];
 
@@ -681,6 +681,7 @@ function isCloudProductionHost() {
     /\.pages\.dev$/i.test(h)
     || /\.apps\.grok\.bot$/i.test(h)
     || /\.cursor\.apps$/i.test(h)
+    || /\.github\.io$/i.test(h)
     || h === 'casa-oracion-challhuahuacho.pages.dev'
     || h === 'casa-oracion.apps.grok.bot'
   );
